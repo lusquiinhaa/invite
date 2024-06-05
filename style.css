@@ -1,0 +1,79 @@
+body {
+   font-family: "Arial", sans-serif; /* Define a fonte padrão para o corpo da página como Arial, com fallback para sans-serif */
+   margin: 0; /* Remove a margem padrão ao redor da página */
+   padding: 0; /* Remove o padding padrão ao redor da página */
+   background-color: #f7f7f7; /* Define a cor de fundo da página como um cinza claro */
+   text-align: center; /* Centraliza o texto horizontalmente na página */
+}
+
+#container {
+   max-width: 500px; /* Define a largura máxima do contêiner como 500px */
+   margin: 50px auto; /* Centraliza o contêiner horizontalmente e adiciona 50px de margem superior e inferior */
+   padding: 20px; /* Adiciona 20px de padding dentro do contêiner */
+   background-color: ; /* Não foi definida nenhuma cor de fundo aqui */
+   border-radius: 15px 240px 0 0; /* Define bordas arredondadas com raios específicos para cada canto */
+   overflow: hidden; /* Esconde qualquer conteúdo que transborde do contêiner */
+   box-shadow: 12px 13px 14px rgba(0, 0, 0, 0.9); /* Adiciona uma sombra ao contêiner */
+   filter: drop-shadow(0 0 10px #000); /* Aplica uma sombra adicional usando o filtro drop-shadow */
+   animation: glow 3s alternate infinite; /* Aplica uma animação de brilho alternado e infinito de 3 segundos */
+}
+
+@keyframes glow {
+   0% {
+      filter: drop-shadow(0 0 10px #000); /* Inicia a animação com uma sombra preta */
+   }
+   100% {
+      filter: drop-shadow(0 0 10px #fff); /* Termina a animação com uma sombra branca */
+   }
+}
+
+img {
+   max-width: 480px; /* Define a largura máxima da imagem como 500px */
+   overflow: hidden; /* Esconde qualquer parte da imagem que transborde */
+   z-index: 12; /* Define a ordem de empilhamento da imagem acima de outros elementos */
+   border-radius: 9px 219px 5px 8px; /* Define bordas arredondadas com raios específicos para cada canto da imagem */
+   box-shadow: 12px 13px 14px rgba(0, 0, 0, 0.9); /* Adiciona uma sombra à imagem */
+}
+
+.title {
+   max-width: 100%; /* Define a largura máxima do título como 100% do elemento pai */
+   background: transparent; /* Define o fundo do título como transparente */
+   margin-top: 50px; /* Adiciona uma margem superior de 50px ao título */
+   font-size: 40px; /* Define o tamanho da fonte do título como 40px */
+   border-radius: 8px; /* Define bordas arredondadas com raio de 8px */
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao título */
+}
+
+span {
+   color: #ff00cf; /* Define a cor do texto dentro do span como magenta */
+}
+
+#details {
+   max-width: 500px; /* Define a largura máxima do contêiner de detalhes como 500px */
+   padding: 10px; /* Adiciona 10px de padding dentro do contêiner de detalhes */
+   text-align: center; /* Centraliza o texto dentro do contêiner de detalhes */
+   border-radius: 6px; /* Define bordas arredondadas com raio de 6px */
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao contêiner de detalhes */
+}
+
+h2 {
+   font-size: 30px; /* Define o tamanho da fonte para os elementos h2 como 30px */
+   color: #ff7e5f; /* Define a cor do texto dos elementos h2 como um tom de laranja */
+}
+
+h3 {
+   font-size: 14px; /* Define o tamanho da fonte para os elementos h2 como 30px */
+   color: #000000; /* Define a cor do texto dos elementos h2 como um tom de laranja */
+}
+
+#details p {
+   margin: 10px 0; /* Define a margem superior e inferior dos parágrafos dentro do contêiner de detalhes como 10px */
+}
+
+#footer {
+   background-color: #ff7e5f; /* Define a cor de fundo do rodapé como um tom de laranja */
+   color: #fff; /* Define a cor do texto do rodapé como branco */
+   text-align: center; /* Centraliza o texto dentro do rodapé */
+   padding: 10px; /* Adiciona 10px de padding dentro do rodapé */
+   margin-top: 10px; /* Adiciona uma margem superior de 10px ao rodapé */
+}
